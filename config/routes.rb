@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "resumes#index"
   get 'resumes/index'
   get 'resumes/index_page'
   get 'resumes/portfolio_details'
